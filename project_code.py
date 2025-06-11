@@ -133,7 +133,7 @@ def find_paths(g: List[List[int]], src: int, dst: int) -> None:
                 q.append(new_path)
 
 
-print(find_paths(adjacency_list, name_to_id['Cristiano Ronaldo'], name_to_id['L. Messi']))
+find_paths(adjacency_list, name_to_id['Cristiano Ronaldo'], name_to_id['L. Messi'])
 
 # Create a matrix to represent the connections between the players
 Connection_Graph = np.zeros((df.shape[0], df.shape[0]))
